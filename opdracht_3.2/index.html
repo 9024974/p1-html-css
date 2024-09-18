@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>bookingsformulier</h1>
+    <form action="">
+        <label for="firstname">voornaam</label>
+        <input type="text" name="firstname" pattern="[A-Za-z]"> 
+        
+        <br><br>
+        
+        <label for="surname">achternaam</label>
+        <input type="text" name="surname" pattern="[A-Za-z]"> 
+
+        <br><br>
+
+        <label for="gender">geslacht</label>
+        <input type="radio" name="gender"checked value="man"> man
+        <input type="radio" name="gender" value="vrouw"> vrouw
+        <br><br>
+        <label for="street">straat met huisnummer</label>
+        <input type="text">
+        <br><br>
+        <label for="postcode">postcode</label>
+        <input type="text">
+        <br><br>
+        <label for="city">stad</label>
+        <input type="text">
+        <br><br>
+        <label for="country">land</label>
+        <input type="text">
+        <br><br>
+        <label for="citizen service number" minlength="9">BSN-nummer</label>
+        <input type="text">
+        <br><br>
+        <label for="countries">landen</label>
+        <select name="countries" id="">
+        <option value="Turkiye"> Turkije</option>
+        <option value="Ireland">Ierland</option>
+        <option value="Scotland">Schotland</option>
+        <option value="Netherlands">Nederland</option>
+        <option value="Spanje">Spanje</option>
+    </select>
+    <br><br>
+    <label for="date of departure">datum vertrek</label>
+    <input type="date" min="2024-09-18">
+    <br><br>
+    <label for="date of return">datum van terugkomst</label>
+    <input type="date" min="2024-09-18">
+    <br><br>
+  
+    <label for="regestration">aantal registratie</label>
+    <select name="regestration" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+   </select>
+    <br><br>
+    <label for="booking">boek nu</label>
+    <input type="text">
+    <br><br>
+    <label for="email">E-mail</label>
+    <input type="text">
+    <br><br>
+    <label for="password">Wachtwoord</label>
+   <input type="password">
+   
+</body>
+</html>
